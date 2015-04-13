@@ -1,0 +1,39 @@
+{
+    "apiVersion": "0.0.4542.22887",
+    "swaggerVersion": "1.0",
+    "basePath": "http://local.api.com/api",
+    "resourcePath": "/donuts",
+    "apis": [
+        {
+            "path": "/donuts/{page}/{pagesize}",
+            "description": "Get donuts by page",
+            "operations": [
+                {
+                    "httpMethod": "GET",
+                    "notes": "Get a donut with page and size",
+                    "nickname": "getDonutsByPageAndSize",
+                    "summary": "Get a collection of donuts by page and pagesize.",
+                    "parameters": [
+                        {
+                            "name": "page",
+                            "description": "the page of the collection",
+                            "dataType": "int",
+                            "required": true,
+                            "allowMultiple": false,
+                            "paramType": "path"
+                        },
+                        {
+                            "name": "pagesize",
+                            "description": "the size of the collection",
+                            "dataType": "int",
+                            "required": true,
+                            "allowMultiple": false,
+                            "paramType": "path"
+                        }
+                    ],
+                    "errorResponses": [ ]
+                }
+            ]
+        },
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "apiVersion": "0.0.4542.22887",
+    "swaggerVersion": "1.0",
+    "basePath": "http://local.api.com/api/doc",
+    "apis": [
+        {
+            "path": "/donuts",
+            "description": "Operations about donuts"
+        },
+        {
+            "path": "/cakes",
+            "description": "Operations about cakes"
+        },
+        {
+            "path": "/bagels",
+            "description": "Operations about bagels"
+        }
+    ]
+
+}
